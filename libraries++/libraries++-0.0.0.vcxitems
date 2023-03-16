@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{bc3d04c2-2c0c-4494-be88-49e60dd4da6a}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Adafruit_BNO055.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Adafruit_BusIO_Register.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Adafruit_I2CDevice.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Adafruit_Sensor.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Adafruit_SPIDevice.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)DS3231.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)I2Cdev.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Modbus.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusClient.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusRTUClient.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusRTUServer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusSerial.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusServer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusTCPClient.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)ModbusTCPServer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)PID_v1.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)RS485.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)RTCZero.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Scheduler.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)SparkFun_External_EEPROM.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)SparkFun_SPI_SerialFlash.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)SPI.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)Wire.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Adafruit_BNO055.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Adafruit_BusIO_Register.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Adafruit_I2CDevice.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Adafruit_I2CRegister.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Adafruit_Sensor.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Adafruit_SPIDevice.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ArduinoModbus.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ArduinoRS485.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)DS3231.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashAsEEPROM_SAMD.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashAsEEPROM_SAMD.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashStorage_SAMD.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashStorage_SAMD.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashStorage_SAMD21.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashStorage_SAMD51.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)FlashStorage_SAMD_Impl.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)I2Cdev.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Modbus.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusClient.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusRTUClient.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusRTUServer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusSerial.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusServer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusTCPClient.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)ModbusTCPServer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)PID_v1.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)RS485.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)RTCZero.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Scheduler.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)SparkFun_External_EEPROM.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)SparkFun_SPI_SerialFlash.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)SPI.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)Wire.h" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+</Project>
